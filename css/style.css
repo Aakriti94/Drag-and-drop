@@ -1,0 +1,456 @@
+.yellow{
+	background: yellow;
+	}
+
+.red{
+	background-color: red;
+}
+
+.pink{
+	background-color: pink;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+ul li{
+	list-style-type: none;
+	display: inline;
+}
+
+.headerRight{
+	float: right;
+	padding-right: 30px;
+}
+
+.speaker{
+	color: white;
+}
+
+.input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:first-child>.btn-group:not(:first-child)>.btn, .input-group-btn:first-child>.btn:not(:first-child), .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group>.btn, .input-group-btn:last-child>.dropdown-toggle {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-radius: 5px;
+    background: #1a4067;
+    color: #94a6b8;
+    border:none;
+}
+
+.caret1{
+	display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    border-top: 4px dashed;
+    border-top: 4px solid\9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+	vertical-align: 7px;
+}
+.active{
+	color: white;
+	font-weight: bold;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background: #3b7fc4;
+	border-radius: 5px;
+}
+
+.nav{
+	margin-top: 10px;
+}
+
+.dropdown-toggle{
+	color: white;
+}
+
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+}
+
+.navbar-nav>li>a:hover{
+	background: none;
+	font-weight: bold;
+	color: white;
+	font-size: 15px;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #eee;
+    border-color: #337ab7;
+}
+
+.nav .open>a:focus{
+	color: #205081;
+}
+
+.header{
+	height: 60px;
+	background: #205081;
+	border-bottom: 2px solid #2e3d54;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+.collapseMenu{
+	color: white;
+	text-align: center;
+	padding: 16px 0;
+	float: left;
+	list-style-type: none;
+}
+
+.collapseMenu a{
+	color: white;
+}
+
+ul.headerRight{
+	padding-top: 6px;
+}
+
+a:focus, a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar-form {
+    margin-right: 10px;
+}
+
+.clr{
+	clear: both;
+}
+
+.verticleMenu{
+  background: #f5f5f5;
+  border-right: 1px solid #cccccc;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.verticleMenu ul li{
+  list-style: none;
+  display: block;
+  margin: 0;
+  padding: 0px 15px;
+}
+
+.verticleMenuIcons{
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.verticleMenuBorderBottom{
+  border-bottom: 1px solid #ccc;
+}
+
+.alignCenter{
+  text-align: center;
+}
+
+.verticleMenu ul li:hover{
+  background: #e6e6e6;
+}
+
+.setBottom{
+ border-top: 1px solid #ccc;
+ position: fixed;
+ bottom: 0;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+
+.div1{
+  width: 100%;
+  height: 150px;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  position: fixed;
+  z-index: 1;
+}
+
+.row1{
+  padding-left: 30px;
+  padding-right: 35px;
+  padding-bottom: 17px;
+}
+
+.heading{
+  font-family: sans-serif;
+  font-size: 25px;
+  padding-top: 38px;
+  width: 94%;
+}
+
+.btn-primary {
+    color: #707070;
+    background-color: #f5f5f5;
+    border-color: #ccc;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover,
+.btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover,
+.open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus,
+.open>.dropdown-toggle.btn-primary:hover {
+    color: #fff;
+    background-color: #707070;
+    border-color: #656464;
+  }
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #707070;
+    border-color: #656464;
+}
+
+.btn-primary:focus{
+  background: #707070;
+}
+
+.row2{
+  padding-left: 30px;
+  padding-right: 35px;
+}
+
+.heading2{
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  float: left;
+  color: #707070;
+  padding-top: 10px;
+}
+
+.heading2 ul li{
+  list-style: none;
+  display: inline;
+  color: #3572b0;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 17px;
+  padding: 10px 15px 10px 15px;
+  line-height: 10px;
+}
+
+.heading2 ul li:hover{
+  background: #ebf2f9;
+  border: 1px solid #3572b0;
+  border-radius: 5px;
+}
+
+.heading2 ul li a{
+  text-decoration: none;
+}
+
+.heading2 ul{
+  float: right;
+  padding-left: 15px;
+}
+
+.heading ul li:active, .heading ul li:focus{
+  background: #ebf2f9;
+  border: 1px solid #3572b0;
+  border-radius: 5px;
+}
+
+.active1 {
+  background: #ebf2f9;
+  border: 1px solid #3572b0;
+  border-radius: 5px;
+}
+
+.fr{float: right;}
+
+.col-sm-12{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.box{
+  min-height: 150px;
+  overflow: hidden;
+  margin-right: 10px;
+  border-bottom: 7px solid #f5f5f5;
+  font-family: sans-serif;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.collapsingDiv{
+  margin-top: 230px;
+  padding-left: 15px;
+  padding-right: 10px;
+  width: 98%;
+}
+
+.text{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  vertical-align: text-top;
+
+}
+
+.collapsedHeading{
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.collapse{
+  margin-top: 10px;
+}
+
+html { overflow-y: hidden; }
+
+.text-left a{
+	color: #333;
+}
+
+.text-left{
+	padding-top: 20px;
+}
+
+
+
+.card{
+  width: 100%
+  height: 150px;
+  background: white;
+  padding: 25px;
+  font-family: sans-serif;
+  font-size: 15px;
+  word-wrap: break-word;
+  margin-bottom: 10px;
+  border: 1.5px solid #c1bcbc;
+  border-radius: 2px;
+  z-index: 1;
+}
+
+.text1{
+	font-family: sans-serif;
+  font-size: 18px;
+}
+
+.menuDetails{
+	padding: 20px;
+	width: 100%;
+	float: right;
+}
+
+.verticleMenu1{
+  width: 12%;
+  background: #f5f5f5;
+  float: left;
+  border-right: 1px solid #cccccc;
+  min-height: 430px;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.menu{
+  width: 450px;
+  top: 212px;
+  background: #f5f5f5;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  display: none;
+  transition: all 0.5s ease-in-out;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+.verticleMenuBorderBottom{
+  border-bottom: 1px solid #ccc;
+}
+
+.verticleMenuIcons{
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.alignCenter{
+  text-align: center;
+}
+
+.card:hover, .card:active, .card:focus {
+	cursor: pointer;
+	background: #ebf2f9;
+}
+
+
+.ui-state-active, .ui-droppable-active {
+  position: relative;
+}
+.ui-state-active::after, .ui-droppable-active::after {
+  content: "Drop Here";
+  font-color: green;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  bottom: 3px;
+  right: 3px;
+  border-width: 2px !important;
+  border-style: dashed !important;
+  border-color: green !important;
+}
+
+.rowCollapse{
+	border: 1px;
+	width: 100%;
+	min-height: 10px;
+}
+
+
+.box1{
+  width: 16%;
+  min-height: 10px;
+  background: #f5f5f5;
+  margin-left: 5px;
+  padding: 5px;
+  border: none;
+  vertical-align: text-top;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 10px 0;
+}
+
+.headingCollapse{
+	margin-top: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+
+.connectedSortable {
+    border: none;
+    width: 15.5%;
+    min-height: 170px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    float: left;
+    margin-right: 10px;
+		margin-left: 10px;
+		vertical-align: text-top;
+		background: #f5f5f5;
+		cursor: pointer;
+  }
+
+
+.card a:hover{
+	color: #337ab7;
+}
